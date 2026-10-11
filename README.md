@@ -8,10 +8,6 @@ Search any drug by generic or brand name to see:
 - unusual reporting spikes
 - individual case reports behind each signal
 
-**Live demo:** _add your Streamlit Cloud link here_
-
-![screenshot](docs/screenshot.png)
-
 ## Features
 
 | Tab | What it does |
@@ -83,12 +79,6 @@ The tests cover:
 - case parsing
 - query building
 - full rendering of all 8 tabs against a mocked API
-
-## Deploy (free)
-
-1. Push this folder to a public GitHub repo.
-2. Go to [share.streamlit.io](https://share.streamlit.io), click **New app**, pick the repo, and set the main file to `app.py`.
-3. Add `OPENFDA_API_KEY` under **Settings → Secrets**.
 
 ## Project structure
 

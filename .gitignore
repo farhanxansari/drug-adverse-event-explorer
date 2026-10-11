@@ -1,0 +1,5 @@
+__pycache__/
+.venv/
+.streamlit/secrets.toml
+.pytest_cache/
+docs/demo.mp4

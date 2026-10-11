@@ -1,5 +1,9 @@
 # Drug Adverse Event Explorer
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://drug-adverse-event-explorer.streamlit.app/)
+
+**Live app:** https://drug-adverse-event-explorer.streamlit.app/
+
 A pharmacovigilance dashboard for post-market drug safety surveillance, built on the FDA Adverse Event Reporting System (FAERS) via the [openFDA API](https://open.fda.gov/apis/drug/event/).
 
 Search any drug by generic or brand name to see:
@@ -8,11 +12,9 @@ Search any drug by generic or brand name to see:
 - unusual reporting spikes
 - individual case reports behind each signal
 
-## Demo 
+## Demo
 
 https://github.com/user-attachments/assets/02f6f597-6ed6-41f9-bca2-abb1d041871e
-
-
 
 ## Features
 
@@ -57,6 +59,7 @@ These are screening methods for prioritising reactions for medical review. They 
 - **Caching:** 24-hour response caching keeps usage within openFDA rate limits.
 - **Testable design:** statistics and data logic live in pure modules (`signals.py`, `analysis.py`), separate from the UI.
 - **Offline tests:** a full app render runs against a mocked openFDA.
+- **Deployment:** hosted on Streamlit Community Cloud, with the API key stored in Streamlit secrets.
 
 ## Run locally
 

@@ -8,6 +8,12 @@ Search any drug by generic or brand name to see:
 - unusual reporting spikes
 - individual case reports behind each signal
 
+## Demo 
+
+https://github.com/user-attachments/assets/02f6f597-6ed6-41f9-bca2-abb1d041871e
+
+
+
 ## Features
 
 | Tab | What it does |
